@@ -1,0 +1,12 @@
+### Start a thread
+
+POST http://localhost:3000/post
+Content-Type: application/json
+
+{
+    "content": "Hello, World!"
+}
+
+### Get threads
+
+GET http://localhost:3000/threads
